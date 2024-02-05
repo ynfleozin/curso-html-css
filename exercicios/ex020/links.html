@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a{
+            color: red;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:hover{
+            text-decoration: underline;
+            color: black;
+        }
+
+        a::after {
+            content: ' [ Link ] ';
+            text-decoration: none;
+            color: black;
+            font-weight: normal;
+        }
+
+        ul > p{
+            display: none;
+        }
+
+        ul:hover > p{
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <h1>Pesonalisando Links</h1>
+    <ul>
+        <li><a href="https://github.com/ynfleozin" target="_blank">Repositório do GitHub</a></li>
+        <p>Acesse o Repositório clicando no Link!</p>
+        <li><a href="https://www.youtube.com" target="_blank">Canal no YouTube</a></li>
+        <li><a href="https://www.cursoemvideo.com" target="_blank">Site do CursoemVideo</a></li>
+    </ul>
+</body>
+</html>

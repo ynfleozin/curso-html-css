@@ -1,0 +1,24 @@
+div{
+    text-align: center;
+    background-color: gray;
+    border: 1px solid black;  /*largura/tipo/ cor */
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+}
+
+#d1:hover{
+    background-color: red;
+    color: red;
+    font-size: 20pt;
+}
+
+#d2:hover{
+    background-color: yellow;
+    font-size: 20pt;
+}
+
+#d3:hover{
+    background-color: green;
+    font-size: 20pt;
+}

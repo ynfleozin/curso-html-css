@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            background-color: gray;
+            font: bold 10pt arial;
+            margin: 0px;
+        }
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        nav{
+            background-color: rgb(99, 99, 99);
+            padding: 3px;
+            box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.568); 
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 60px;
+        }
+
+        nav > a:hover{
+            text-decoration: underline;
+
+        }
+
+        #esportes, #noticias{
+            margin-bottom: 25px;
+            margin-top: 20px;
+        }
+
+        article {
+            background-color: lightgray;
+            border-radius: 10px;
+            padding: 10px;
+            text-align: center;
+        }
+
+        #esportes {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        img {
+            border-radius: 10px;
+            margin: 10px auto; 
+            max-width: 100%;
+        }
+
+
+        main{
+            background-color: white;
+            margin: 10px;
+            padding: 10px;
+            border-radius: 10px;
+            box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.377);
+        }
+
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+            font-style: italic;
+        }
+
+        footer > p {
+            margin: 4px;
+        }
+
+        #bola{
+            height:100px;
+            width:100px;
+            margin:10px auto;
+            background-color: white;
+            border-radius: 50px;
+        
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Programmer.com</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Esportes | Tecnologia | Política</p>
+        </section>
+        <section id="esportes">
+            <article>
+                <h2>Esporte</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus, fugiat soluta? Distinctio assumenda ex placeat unde quaerat libero, blanditiis sed officia modi ipsam consectetur fugit doloremque dicta corrupti minima voluptatem!</p>
+                <img src="soccer-image.jpg" alt="soccer-image">
+            </article>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícia Sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, fugiat debitis voluptatem expedita sit nihil odit. Ratione iure expedita sed quas dicta, inventore odio voluptates facilis. Laudantium asperiores dicta quasi!</p>
+                <img src="notice-image.jpg" alt="notice-image">
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Leonardo</p>
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>
