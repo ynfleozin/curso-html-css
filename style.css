@@ -2,7 +2,6 @@ body {
     background-image: linear-gradient(to bottom, rgb(133, 40, 156), rgb(58, 2, 71) );
     font: 13pt Arial;
     overflow-x: hidden;
-    background-repeat: no-repeat;
     margin-top: auto;
     background-position: center  center;
     height: 100vh;
